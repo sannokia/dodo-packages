@@ -1,6 +1,6 @@
 {
   "name": "@dodo/dodo-scripts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Configuration and scripts.",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "license": "MIT",
@@ -13,15 +13,15 @@
     "app-scripts": "./bin/dodo-scripts.js"
   },
   "dependencies": {
-    "@dodo/babel-preset-react": "^0.1.0",
-    "@dodo/dev-utils": "^0.1.0",
-    "@dodo/eslint-config-base": "^0.1.0",
-    "@dodo/eslint-config-prettier": "^0.1.0",
-    "@dodo/eslint-config-react": "^0.1.0",
-    "@dodo/postcss-config": "^0.1.0",
-    "@dodo/storybook-config": "^0.1.0",
-    "@dodo/stylelint-config": "^0.1.0",
-    "@dodo/webpack-config": "^0.1.0",
+    "@dodo/babel-preset-react": "^0.1.1",
+    "@dodo/dev-utils": "^0.1.1",
+    "@dodo/eslint-config-base": "^0.1.1",
+    "@dodo/eslint-config-prettier": "^0.1.1",
+    "@dodo/eslint-config-react": "^0.1.1",
+    "@dodo/postcss-config": "^0.1.1",
+    "@dodo/storybook-config": "^0.1.1",
+    "@dodo/stylelint-config": "^0.1.1",
+    "@dodo/webpack-config": "^0.1.1",
     "autoprefixer": "^7.2.5",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -44,8 +44,8 @@
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
-    "@dodo/eslint-config-base": "^0.1.0",
-    "@dodo/eslint-config-prettier": "^0.1.0",
+    "@dodo/eslint-config-base": "^0.1.1",
+    "@dodo/eslint-config-prettier": "^0.1.1",
     "editorconfig-tools": "^0.1.1"
   },
   "scripts": {

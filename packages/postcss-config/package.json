@@ -1,6 +1,6 @@
 {
   "name": "@dodo/postcss-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This package provides the Post CSS config as an extensible shared config.",
   "main": "index.js",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
@@ -22,8 +22,8 @@
     "rucksack-css": "^1.0.2"
   },
   "devDependencies": {
-    "@dodo/eslint-config-base": "^0.1.0",
-    "@dodo/eslint-config-prettier": "^0.1.0",
+    "@dodo/eslint-config-base": "^0.1.1",
+    "@dodo/eslint-config-prettier": "^0.1.1",
     "editorconfig-tools": "^0.1.1",
     "eslint": "^4.16.0"
   },

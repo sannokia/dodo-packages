@@ -1,6 +1,6 @@
 {
   "name": "@dodo/webpack-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This package provides a collection of composable ES6 webpack partial configurations & utilities functions.",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "main": "./dist/index.js",
@@ -38,8 +38,8 @@
     "webpack-dashboard": "^1.0.2"
   },
   "devDependencies": {
-    "@dodo/eslint-config-base": "^0.1.0",
-    "@dodo/eslint-config-prettier": "^0.1.0",
+    "@dodo/eslint-config-base": "^0.1.1",
+    "@dodo/eslint-config-prettier": "^0.1.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",
