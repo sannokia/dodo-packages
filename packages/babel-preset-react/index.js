@@ -121,10 +121,8 @@ if (env === 'test') {
 
   if (env === 'production') {
     // Optimization: hoist JSX that never changes out of render()
-    // Disabled because of issues: https://github.com/facebookincubator/create-react-app/issues/553
-    // TODO: Enable again when these issues are resolved.
-    // plugins.push.apply(plugins, [
-    //   require.resolve('babel-plugin-transform-react-constant-elements')
-    // ]);
+    plugins.push.apply(plugins, [
+      require.resolve('babel-plugin-transform-react-constant-elements')
+    ]);
   }
 }

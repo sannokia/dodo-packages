@@ -23,7 +23,6 @@ const {
   bundleAnalyzer,
   uglify,
   eslint,
-  handlebars,
   babel,
   sass,
   stylelint,
@@ -36,7 +35,7 @@ const getClientEnvironment = require('./env');
 
 const env = getClientEnvironment();
 
-const publicPath = paths.servedPath;
+const publicPath = '/dist';
 
 const buildConfig = flow(
   entry({
@@ -132,7 +131,6 @@ const buildConfig = flow(
     quiet: true,
     emitError: false
   }),
-  handlebars(),
   babel({
     babelrc: false,
     presets: [require.resolve('@dodo/babel-preset-react')],

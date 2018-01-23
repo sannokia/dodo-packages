@@ -38,6 +38,8 @@ import uglify from './plugins/uglify';
 import extractText from './plugins/extract-text';
 import copy from './plugins/copy';
 import imagemin from './plugins/imagemin';
+import html from './plugins/html';
+import interpolateHtml from './plugins/interpolate-html';
 
 export {
   alias,
@@ -74,5 +76,7 @@ export {
   uglify,
   extractText,
   copy,
-  imagemin
+  imagemin,
+  html,
+  interpolateHtml
 };

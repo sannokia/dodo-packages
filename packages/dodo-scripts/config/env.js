@@ -54,7 +54,7 @@ process.env.NODE_PATH = (process.env.NODE_PATH || '')
   .map(folder => path.resolve(appDirectory, folder))
   .join(path.delimiter);
 
-function getClientEnvironment() {
+function getClientEnvironment(publicUrl) {
   const raw = Object.keys(process.env).reduce(
     (env, key) => {
       env[key] = process.env[key];
@@ -63,7 +63,12 @@ function getClientEnvironment() {
     {
       NODE_ENV: process.env.NODE_ENV || 'development',
       BABEL_ENV: BABEL_ENV || 'development',
-      TEST: process.env.NODE_ENV === 'test'
+      TEST: process.env.NODE_ENV === 'test',
+      // Useful for resolving the correct path to static assets in `public`.
+      // For example, <img src={process.env.PUBLIC_URL + '/img/logo.png'} />.
+      // This should only be used as an escape hatch. Normally you would put
+      // images into the `src` and `import` them in code to get their paths.
+      PUBLIC_URL: publicUrl
     }
   );
   // Stringify all values so we can feed into Webpack DefinePlugin
