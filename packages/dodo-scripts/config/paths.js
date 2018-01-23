@@ -14,7 +14,7 @@ module.exports = {
   appLogs: resolveApp('logs'),
   appPublic: resolveApp('public'),
   appMainJs: resolveApp('src/scripts/main.js'),
-  appIndexJs: resolveApp('src/scripts/entries/app.entry.js'),
+  appIndexJs: resolveApp('src/scripts/app.entry.js'),
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   appScripts: resolveApp('src/scripts'),

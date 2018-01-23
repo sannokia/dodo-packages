@@ -1,0 +1,35 @@
+{
+  "name": "@dodo/redux-store-setup",
+  "version": "0.1.0",
+  "description": "This package provides a reusable setup for a Redux store which includes support for Redux Saga, Redux Thunk, React Router Redux and Redux DevTools Extension.",
+  "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
+  "license": "MIT",
+  "files": [
+    "configureReducers",
+    "configureStore",
+    "createStore",
+    "ReducerRegistry"
+  ],
+  "dependencies": {
+    "history": "^4.7.2",
+    "lodash": "^4.17.4",
+    "react-router": "^4.2.0",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "@dodo/eslint-config-base": "^0.1.1",
+    "@dodo/eslint-config-prettier": "^0.1.1",
+    "editorconfig-tools": "^0.1.1"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-tools check ./",
+    "posteditorconfig": "editorconfig-tools fix ./",
+    "prelint": "npm run editorconfig",
+    "lint": "eslint ./ --ext js",
+    "postlint": "eslint ./ --fix",
+    "prepublishOnly": "npm run lint"
+  }
+}
