@@ -1,0 +1,21 @@
+{
+	"private": true,
+	"devDependencies": {
+		"commitizen": "^2.9.6",
+		"cz-lerna-changelog": "^1.2.1",
+		"lerna": "^2.8.0",
+		"lerna-semantic-release": "^9.1.0"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-lerna-changelog"
+		}
+	},
+	"scripts": {
+		"publish": "lerna publish --conventional-commits",
+		"commit": "git add . && git cz && git push --tags origin HEAD:master"
+	}
+}

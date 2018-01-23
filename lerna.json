@@ -1,0 +1,11 @@
+{
+  "lerna": "2.4.0",
+  "hoist": true,
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "registry": "http://localhost:4873",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent"
+}

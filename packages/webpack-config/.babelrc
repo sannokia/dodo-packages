@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": [
+    "add-module-exports",
+    "transform-runtime",
+    "transform-object-rest-spread"
+  ]
+}

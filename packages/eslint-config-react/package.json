@@ -1,0 +1,35 @@
+{
+  "name": "@dodo/eslint-config-react",
+  "version": "0.1.0",
+  "description": "This package provides the react JS .eslintrc as an extensible shared config.",
+  "main": "index.js",
+  "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "dependencies": {
+    "@dodo/eslint-config-base": "^0.1.0",
+    "babel-eslint": "^8.2.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "devDependencies": {
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-tools check index.js",
+    "posteditorconfig": "editorconfig-tools fix index.js",
+    "prelint": "npm run editorconfig",
+    "lint": "eslint index.js --ext js",
+    "postlint": "eslint index.js --fix",
+    "prepublishOnly": "npm run lint"
+  }
+}
