@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.12"></a>
+## [0.1.12](/compare/@dodo/dodo-scripts@0.1.11...@dodo/dodo-scripts@0.1.12) (2018-01-23)
+
+
+
+
+**Note:** Version bump only for package @dodo/dodo-scripts
+
 <a name="0.1.11"></a>
 ## [0.1.11](/compare/@dodo/dodo-scripts@0.1.10...@dodo/dodo-scripts@0.1.11) (2018-01-23)
 
