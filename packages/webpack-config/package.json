@@ -1,6 +1,6 @@
 {
   "name": "@dodo/webpack-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This package provides a collection of composable ES6 webpack partial configurations & utilities functions.",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "main": "./dist/index.js",
@@ -22,6 +22,7 @@
     "file-loader": "^1.1.5",
     "handlebars": "^4.0.11",
     "handlebars-loader": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
     "imagemin-webpack-plugin": "^1.5.2",
     "json-loader": "^0.5.7",
     "lodash": "^4.17.4",
