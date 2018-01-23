@@ -1,6 +1,6 @@
 {
   "name": "@dodo/dev-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This package provides various development utils.",
   "author": "Adrian Bonnici <admin@dodo.com>",
   "license": "MIT",
@@ -30,13 +30,13 @@
     "address": "1.0.3",
     "babel-code-frame": "6.26.0",
     "chalk": "2.3.0",
-    "cross-spawn": "5.1.0",
+    "cross-spawn": "6.0.3",
     "detect-port-alt": "1.1.5",
     "escape-string-regexp": "1.0.5",
     "filesize": "3.5.11",
     "global-modules": "1.0.0",
     "gzip-size": "4.1.0",
-    "inquirer": "5.0.1",
+    "inquirer": "4.0.2",
     "is-root": "1.0.0",
     "opn": "5.2.0",
     "react-error-overlay": "^4.0.0",
@@ -44,6 +44,7 @@
     "shell-quote": "1.6.1",
     "sockjs-client": "1.1.4",
     "strip-ansi": "4.0.0",
+    "strip-color": "^0.1.0",
     "text-table": "0.2.0"
   },
   "devDependencies": {

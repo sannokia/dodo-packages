@@ -1,6 +1,6 @@
 {
   "name": "@dodo/babel-preset-react",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Reusable babel preset.",
   "main": "index.js",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
