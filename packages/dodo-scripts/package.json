@@ -1,6 +1,6 @@
 {
   "name": "@dodo/dodo-scripts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Configuration and scripts.",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "scripts"
   ],
   "bin": {
-    "app-scripts": "./bin/dodo-scripts.js"
+    "dodo-scripts": "./bin/dodo-scripts.js"
   },
   "dependencies": {
     "@dodo/babel-preset-react": "^0.1.1",
