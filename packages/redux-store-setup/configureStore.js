@@ -42,10 +42,12 @@ const configureStore = (reducerRegistry, initialState = {}, sagas = {}) => {
     store.replaceReducer(configureReducers(reducers));
   });
 
-  return store
+  return store;
 };
 
 export {
   configureStore,
   history
-}
+};
+
+export default configureStore;
