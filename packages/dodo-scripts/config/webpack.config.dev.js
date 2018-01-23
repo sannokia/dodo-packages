@@ -76,7 +76,6 @@ const buildConfig = flow(
     lodash: paths.resolveApp('node_modules/lodash'),
     jquery: paths.resolveApp('node_modules/jquery'),
     $: paths.resolveApp('node_modules/jquery'),
-    events: paths.resolveApp('packages/events'),
     'babel-runtime': path.dirname(
       require.resolve('babel-runtime/package.json')
     )

@@ -60,8 +60,7 @@ const buildConfig = flow(
   alias({
     lodash: require.resolve('lodash'),
     jquery: require.resolve('jquery'),
-    $: require.resolve('jquery'),
-    events: paths.resolveApp('packages/events')
+    $: require.resolve('jquery')
   }),
   loaderOptions({
     options: {

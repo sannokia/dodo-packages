@@ -58,8 +58,7 @@ const buildConfig = flow(
   alias({
     lodash: paths.resolveApp('node_modules/lodash'),
     jquery: paths.resolveApp('node_modules/jquery'),
-    $: paths.resolveApp('node_modules/jquery'),
-    events: paths.resolveApp('packages/events')
+    $: paths.resolveApp('node_modules/jquery')
   }),
   set(['devtool'], 'eval-source-map'),
   loaderOptions({
