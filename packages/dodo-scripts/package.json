@@ -1,6 +1,6 @@
 {
   "name": "@dodo/dodo-scripts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Configuration and scripts.",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "license": "MIT",
@@ -19,7 +19,6 @@
     "@dodo/eslint-config-prettier": "^0.1.1",
     "@dodo/eslint-config-react": "^0.1.1",
     "@dodo/postcss-config": "^0.1.1",
-    "@dodo/storybook-config": "^0.1.1",
     "@dodo/stylelint-config": "^0.1.1",
     "@dodo/webpack-config": "^0.1.1",
     "autoprefixer": "^7.2.5",
