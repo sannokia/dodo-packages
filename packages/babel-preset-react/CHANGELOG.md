@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.6"></a>
+## [0.1.6](/compare/@dodo/babel-preset-react@0.1.5...@dodo/babel-preset-react@0.1.6) (2018-01-24)
+
+
+
+
+**Note:** Version bump only for package @dodo/babel-preset-react
+
 <a name="0.1.5"></a>
 ## [0.1.5](/compare/@dodo/babel-preset-react@0.1.4...@dodo/babel-preset-react@0.1.5) (2018-01-23)
 
