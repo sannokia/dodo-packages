@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.14"></a>
+## [0.1.14](/compare/@dodo/redux-store-setup@0.1.13...@dodo/redux-store-setup@0.1.14) (2018-01-24)
+
+
+
+
+**Note:** Version bump only for package @dodo/redux-store-setup
+
 <a name="0.1.13"></a>
 ## [0.1.13](/compare/@dodo/redux-store-setup@0.1.12...@dodo/redux-store-setup@0.1.13) (2018-01-24)
 
