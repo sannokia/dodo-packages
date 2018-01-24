@@ -1,6 +1,6 @@
 class ReducerRegistry {
   constructor(initialReducers = {}) {
-    this._reducers = {...initialReducers};
+    this._reducers = { ...initialReducers };
     this._emitChange = null;
   }
   register(newReducers) {

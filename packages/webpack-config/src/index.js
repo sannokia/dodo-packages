@@ -13,7 +13,6 @@ import loader from './loader';
 import babel from './loaders/babel';
 import css from './loaders/css';
 import eslint from './loaders/eslint';
-import handlebars from './loaders/handlebars';
 import postcss from './loaders/postcss';
 import sass from './loaders/sass';
 import style from './loaders/style';
@@ -26,7 +25,7 @@ import commons from './plugins/commons';
 import dashboard from './plugins/dashboard';
 import define from './plugins/define';
 import duplicatePackageChecker from './plugins/duplicate-package-checker';
-import hmr from './plugins/hot-module-reloading';
+import hmr from './plugins/hot-module-replacement';
 import loaderOptions from './plugins/loader-options';
 import lodash from './plugins/lodash';
 import scopeHoist from './plugins/module-concatenation';
@@ -54,7 +53,6 @@ export {
   babel,
   css,
   eslint,
-  handlebars,
   postcss,
   sass,
   style,
