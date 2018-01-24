@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.3"></a>
+## [0.1.3](/compare/@dodo/postcss-config@0.1.2...@dodo/postcss-config@0.1.3) (2018-01-24)
+
+
+
+
+**Note:** Version bump only for package @dodo/postcss-config
+
 <a name="0.1.2"></a>
 ## [0.1.2](/compare/@dodo/postcss-config@0.1.1...@dodo/postcss-config@0.1.2) (2018-01-24)
 
