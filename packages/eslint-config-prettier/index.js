@@ -1,9 +1,9 @@
 // prettier-ignore
 module.exports = {
-  'plugins': [
-    'prettier'
+  'extends': [
+    "plugin:prettier/recommended"
   ],
   'rules': {
-    'prettier/prettier': ['error', { singleQuote: true, trailingComma: 'none' }]
+    'prettier/prettier': ['error', { parser: 'flow', singleQuote: true, trailingComma: 'none', arrowParens: 'always' }]
   }
 };

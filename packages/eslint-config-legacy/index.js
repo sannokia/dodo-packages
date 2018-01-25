@@ -6,13 +6,6 @@ module.exports = {
     'keyword-spacing': 1,
     'func-names': 0,
     eqeqeq: 2,
-    indent: [
-      2,
-      2,
-      {
-        VariableDeclarator: 1
-      }
-    ],
     'one-var': [2, 'never'],
     'no-multiple-empty-lines': [1, { max: 2 }],
     'no-undef': 2,
