@@ -1,6 +1,6 @@
 {
   "name": "@dodo/logger",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "This package provides an extensible and customisable logger for the standard output.",
   "main": "index.js",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
@@ -19,8 +19,8 @@
     "winston-daily-rotate-file": "^1.7.2"
   },
   "devDependencies": {
-    "@dodo/eslint-config-base": "^0.1.1",
-    "@dodo/eslint-config-prettier": "^0.1.5",
+    "@dodo/eslint-config-base": "^0.1.2",
+    "@dodo/eslint-config-prettier": "^0.1.6",
     "editorconfig-tools": "^0.1.1",
     "eslint": "^4.16.0"
   },

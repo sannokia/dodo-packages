@@ -1,6 +1,6 @@
 {
   "name": "@dodo/eslint-config-base",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This package provides the base JS .eslintrc (without React plugins) as an extensible shared config.",
   "main": "index.js",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
@@ -9,7 +9,7 @@
     "registry": "http://localhost:4873"
   },
   "dependencies": {
-    "@dodo/eslint-config-legacy": "^0.1.1",
+    "@dodo/eslint-config-legacy": "^0.1.2",
     "babel-eslint": "^8.2.1",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.8.0"
