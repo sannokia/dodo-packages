@@ -4,6 +4,6 @@ module.exports = {
     "plugin:prettier/recommended"
   ],
   'rules': {
-    'prettier/prettier': ['error', { parser: 'flow', singleQuote: true, trailingComma: 'none', arrowParens: 'always' }]
+    'prettier/prettier': ['error', { singleQuote: true, trailingComma: 'none', arrowParens: 'always' }]
   }
 };
