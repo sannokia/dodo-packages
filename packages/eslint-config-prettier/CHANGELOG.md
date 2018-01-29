@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.8"></a>
+## [0.1.8](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/eslint-config-prettier@0.1.7...@dodo/eslint-config-prettier@0.1.8) (2018-01-29)
+
+
+### Bug Fixes
+
+* fixing eslint rules to allow for modules ([6eb5ff5](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/commits/6eb5ff5))
+
+
+
+
 <a name="0.1.7"></a>
 ## [0.1.7](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/eslint-config-prettier@0.1.6...@dodo/eslint-config-prettier@0.1.7) (2018-01-26)
 

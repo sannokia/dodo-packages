@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.6"></a>
+## [0.1.6](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/eslint-config-react@0.1.5...@dodo/eslint-config-react@0.1.6) (2018-01-29)
+
+
+
+
+**Note:** Version bump only for package @dodo/eslint-config-react
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/eslint-config-react@0.1.4...@dodo/eslint-config-react@0.1.5) (2018-01-26)
 
