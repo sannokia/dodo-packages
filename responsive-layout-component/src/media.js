@@ -3,8 +3,8 @@ import _extend from 'lodash/extend';
 import _each from 'lodash/each';
 import events from 'events';
 
-const TABLET_PORTRAIT_WIDTH = 1025;
-const TABLET_PORTRAIT_HEIGHT = 1025;
+const TABLET_PORTRAIT_WIDTH = 768;
+const TABLET_PORTRAIT_HEIGHT = 1024;
 const TABLET_LANDSCAPE_WIDTH = TABLET_PORTRAIT_HEIGHT;
 const TABLET_LANDSCAPE_HEIGHT = TABLET_PORTRAIT_WIDTH;
 
@@ -36,7 +36,6 @@ _each(MEDIA_QUERIES, function(query, name) {
       updateActive(name);
     }
   });
-
 });
 
 mqChannel.active = active;

@@ -1,0 +1,7 @@
+{
+  "extends": "@nemea/es6",
+  "env": {
+    "node": true,
+    "browser": true
+  }
+}

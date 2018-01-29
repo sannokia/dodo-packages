@@ -1,5 +1,5 @@
 /logs
-
+/lib
 .idea
 *.log
 node_modules

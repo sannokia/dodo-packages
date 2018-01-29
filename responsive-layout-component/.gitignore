@@ -1,0 +1,14 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+/logs
+
+# misc
+.DS_Store
+
+npm-debug.log*
+yarn-debug.log*
+webpack-assets.json
+yarn-error.log*

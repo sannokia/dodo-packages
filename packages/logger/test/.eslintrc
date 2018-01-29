@@ -1,0 +1,13 @@
+{
+ "env": {
+   "mocha": true
+ },
+ "globals": {
+   "chai": true,
+   "sinon": true,
+   "React": true,
+   "TestUtils": true,
+   "TestParent": true,
+   "ReactDOM": true
+ }
+}

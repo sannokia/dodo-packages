@@ -1,16 +1,16 @@
 import React from 'react';
-import shouldPureComponentUpdate from 'utils/helpers/ui/shouldComponentUpdate';
+// import shouldPureComponentUpdate from '@dodo/ui-utils/shouldComponentUpdate';
+
 import media from './media';
 
 class ResponsiveLayout extends React.Component {
-
   static propTypes = {
     mobileLayout: React.PropTypes.any,
     desktopLayout: React.PropTypes.any,
     tabletLayout: React.PropTypes.any
   };
 
-  shouldComponentUpdate = shouldPureComponentUpdate;
+  // shouldComponentUpdate = shouldPureComponentUpdate;
 
   constructor(props) {
     super(props);
@@ -37,11 +37,12 @@ class ResponsiveLayout extends React.Component {
   }
 
   render() {
-
-    if (process.env.TEST) {
+    if (process.env.TEST_MODE) {
       return (
         <div className={this.props.className}>
-          {typeof this.props.desktopLayout === 'function' ? this.props.desktopLayout() : this.props.desktopLayout}
+          {typeof this.props.desktopLayout === 'function'
+            ? this.props.desktopLayout()
+            : this.props.desktopLayout}
         </div>
       );
     }
@@ -49,28 +50,26 @@ class ResponsiveLayout extends React.Component {
     var activeComponent;
 
     switch (this.state.active) {
-    case 'MOBILE':
-    case 'TABLET_PORTRAIT':
-      activeComponent = this.props.mobileLayout;
-      break;
-    case 'TABLET_LANDSCAPE':
-      activeComponent = typeof this.props.tabletLayout === 'undefined' ? this.props.desktopLayout : this.props.tabletLayout;
-      break;
-    default:
-      activeComponent = this.props.desktopLayout;
+      case 'MOBILE':
+      case 'TABLET_PORTRAIT':
+        activeComponent = this.props.mobileLayout;
+        break;
+      case 'TABLET_LANDSCAPE':
+        activeComponent =
+          typeof this.props.tabletLayout === 'undefined'
+            ? this.props.desktopLayout
+            : this.props.tabletLayout;
+        break;
+      default:
+        activeComponent = this.props.desktopLayout;
     }
 
     if (typeof activeComponent === 'function') {
       activeComponent = activeComponent();
     }
 
-    return (
-      <div className={this.props.className}>
-        {activeComponent}
-      </div>
-    );
+    return <div className={this.props.className}>{activeComponent}</div>;
   }
-
 }
 
 export default ResponsiveLayout;
