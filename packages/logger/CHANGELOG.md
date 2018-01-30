@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.11"></a>
+## [0.1.11](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/logger@0.1.10...@dodo/logger@0.1.11) (2018-01-30)
+
+
+
+
+**Note:** Version bump only for package @dodo/logger
+
 <a name="0.1.10"></a>
 ## [0.1.10](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/logger@0.1.9...@dodo/logger@0.1.10) (2018-01-30)
 
