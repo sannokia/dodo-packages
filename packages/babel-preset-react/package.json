@@ -1,6 +1,6 @@
 {
   "name": "@dodo/babel-preset-react",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Reusable babel preset for React based projects.",
   "main": "index.js",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
@@ -25,8 +25,8 @@
     "babel-preset-react": "6.24.1"
   },
   "devDependencies": {
-    "@dodo/eslint-config-legacy": "^0.1.7",
-    "@dodo/eslint-config-prettier": "^0.1.12",
+    "@dodo/eslint-config-legacy": "^0.1.8",
+    "@dodo/eslint-config-prettier": "^0.1.13",
     "editorconfig-tools": "^0.1.1",
     "eslint": "^4.16.0"
   },
