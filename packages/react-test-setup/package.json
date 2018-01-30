@@ -1,6 +1,6 @@
 {
   "name": "@dodo/react-test-setup",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This package provides the configuration to setup a testing react environment using Chai, Sinon and React Test Utils.",
   "main": "./lib",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
@@ -27,7 +27,7 @@
   "devDependencies": {
     "@dodo/eslint-config-prettier": "^0.1.17",
     "@dodo/eslint-config-react": "^0.1.15",
-    "@dodo/react-test-parent": "^0.1.10",
+    "@dodo/react-test-parent": "^0.1.11",
     "babel-cli": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-runtime": "^6.23.0",
