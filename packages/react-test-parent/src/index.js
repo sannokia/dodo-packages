@@ -1,5 +1,5 @@
 import React from 'react';
-import _omit from 'lodash.omit';
+import _omit from 'lodash/omit';
 
 export default class TestParent extends React.Component {
   constructor(props) {

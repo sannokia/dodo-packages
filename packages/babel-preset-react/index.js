@@ -97,9 +97,7 @@ if (env === 'test') {
             uglify: true
           },
           // Disable polyfill transforms
-          useBuiltIns: false,
-          // Do not transform modules to CJS
-          modules: true
+          useBuiltIns: false
         }
       ],
       // JSX, Flow
