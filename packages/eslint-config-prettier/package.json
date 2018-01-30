@@ -1,6 +1,6 @@
 {
   "name": "@dodo/eslint-config-prettier",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "This package provides the Prettier .eslintrc as an extensible shared config.",
   "main": "index.js",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",

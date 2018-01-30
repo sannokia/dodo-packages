@@ -1,6 +1,6 @@
 {
   "name": "@dodo/stylelint-config",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "This package provides the Stylelint config as an extensible shared config.",
   "main": "index.js",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
@@ -12,8 +12,8 @@
     "stylelint-config-standard": "^18.0.0"
   },
   "devDependencies": {
-    "@dodo/eslint-config-base": "^0.1.9",
-    "@dodo/eslint-config-prettier": "^0.1.13",
+    "@dodo/eslint-config-base": "^0.1.10",
+    "@dodo/eslint-config-prettier": "^0.1.14",
     "editorconfig-tools": "^0.1.1",
     "eslint": "^4.16.0"
   },
