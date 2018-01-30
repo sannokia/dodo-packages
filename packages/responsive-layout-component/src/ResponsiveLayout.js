@@ -1,5 +1,5 @@
 import React from 'react';
-// import shouldPureComponentUpdate from '@dodo/ui-utils/shouldComponentUpdate';
+import shouldPureComponentUpdate from '@dodo/utils/lib/helpers/ui/shouldComponentUpdate';
 
 import media from './media';
 
@@ -10,7 +10,7 @@ class ResponsiveLayout extends React.Component {
     tabletLayout: React.PropTypes.any
   };
 
-  // shouldComponentUpdate = shouldPureComponentUpdate;
+  shouldComponentUpdate = shouldPureComponentUpdate;
 
   constructor(props) {
     super(props);

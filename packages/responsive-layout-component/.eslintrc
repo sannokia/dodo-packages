@@ -1,0 +1,6 @@
+{
+  extends: [
+    "@dodo/eslint-config-react",
+    "@dodo/eslint-config-prettier"
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "name": "@dodo/logger",
   "version": "0.1.18",
-  "description": "This package provides an extensible and customisable logger for the standard output.",
+  "description":
+    "This package provides an extensible and customisable logger for the standard output.",
   "main": "./lib",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "license": "MIT",
@@ -40,8 +41,10 @@
     "lint": "eslint src --ext js",
     "postlint": "eslint src --fix",
     "pretest": "npm run lint",
-    "test": "TEST_MODE=true mocha --compilers js:babel-register --ui tdd --timeout 8000 ./test/index.js",
-    "build": "npm run clean && NODE_ENV=production babel src -d lib --source-maps",
+    "test":
+      "NODE_ENV=production TEST_MODE=true mocha --compilers js:babel-register --ui tdd --timeout 8000 ./test/index.js",
+    "build":
+      "npm run clean && NODE_ENV=production babel src -d lib --source-maps",
     "clean": "rm -rf ./lib && mkdir ./lib",
     "prepublishOnly": "npm run build && npm run test"
   }

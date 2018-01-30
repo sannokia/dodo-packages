@@ -1,0 +1,103 @@
+@mixin container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin break-cols() {
+  > .col {
+    &:nth-child(1n) {
+      width: auto;
+      margin-right: 0;
+      float: none;
+    }
+  }
+}
+
+@mixin modify-row($cols, $gutter: gutter(12)) {
+  $total-gutter: $gutter * ($cols - 1);
+
+  > .col {
+    width: (100% - $total-gutter) / $cols;
+    margin-right: $gutter;
+    &:nth-child(#{$cols}n) {
+      float: right;
+      margin-right: 0;
+    }
+  }
+}
+
+@mixin generate-row($cols, $gutter: gutter(12)) {
+  $total-gutter: $gutter * ($cols - 1);
+
+  > .col {
+    width: (100% - $total-gutter) / $cols;
+    margin-right: $gutter;
+    float: left;
+    &:nth-child(#{$cols}n) {
+      float: right;
+      margin-right: 0;
+    }
+    &:nth-child(#{$cols}n + 1) {
+      clear: left;
+    }
+  }
+}
+
+@mixin generate-rows($gutter: gutter(12), $suffix: '') {
+  @for $i from 2 through 12 {
+    $half-gutter: $gutter / 2;
+    $total-gutter: $gutter * ($i - 1);
+
+    .row--size-#{$i}#{$suffix} {
+      @include generate-row($i, $gutter);
+
+      &.row--align {
+        > .col {
+          width: (100% / $i) - $gutter;
+          margin-right: $gutter;
+
+          &:nth-child(#{$i}n),
+          &:nth-child(#{$i}n + 1) {
+            width: (100% / $i) - ($gutter / 2);
+          }
+
+          &:nth-child(#{$i}n) {
+            margin-right: 0;
+          }
+        }
+      }
+
+      &.row--collapse {
+        > .col {
+          width: 100% / $i;
+          margin-right: 0;
+        }
+      }
+    }
+
+    .row#{$suffix} {
+      @for $j from 1 to $i {
+        > .col-#{$j}-of-#{$i} {
+          width: ((100% - $total-gutter) / $i) * $j + ($gutter * ($j - 1));
+          margin-right: $gutter;
+
+          &--omega {
+            margin-right: 0;
+          }
+        }
+
+        &.row--collapsed {
+          > .col-#{$j}-of-#{$i} {
+            width: (100% / $i) * $j;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@function gutter($span) {
+  // Some kind of magic number
+  @return (0.2 / $span) * 100%;
+}

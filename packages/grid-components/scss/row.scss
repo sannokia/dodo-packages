@@ -1,0 +1,66 @@
+.row {
+  @include clearfix;
+
+  > .col {
+    float: left;
+  }
+}
+
+.row--centered {
+  text-align: center;
+
+  > .col {
+    display: inline-block;
+    margin-right: gutter(8);
+    text-align: inherit;
+    float: none;
+    vertical-align: top;
+
+    &--omega {
+      margin-right: 0;
+    }
+  }
+}
+
+.row--page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row--page-small {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.row--page-mini {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.row--page-big {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.row--page-mega {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+@include media('<=tablet') {
+  .row--centered {
+    > .col {
+      display: block;
+    }
+  }
+
+  .row {
+    > .col:nth-child(n) {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      float: none;
+    }
+  }
+}

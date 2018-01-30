@@ -1,0 +1,23 @@
+.container {
+  @include container;
+
+  max-width: 1080px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &.container-normal {
+    max-width: 980px;
+  }
+
+  &.container-small {
+    max-width: 768px;
+  }
+
+  &.container-smaller {
+    max-width: 650px;
+  }
+
+  &.container-smallest {
+    max-width: 400px;
+  }
+}

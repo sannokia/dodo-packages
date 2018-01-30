@@ -1,0 +1,34 @@
+.gap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gap--less {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.gap--lesser {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gap--more {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.row-wrapper {
+  &.pad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  &.pad--top {
+    padding-top: 100px;
+  }
+
+  &.pad--bottom {
+    padding-bottom: 100px;
+  }
+}
