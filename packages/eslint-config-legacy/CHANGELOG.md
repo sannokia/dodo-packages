@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.12"></a>
+## [0.1.12](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/eslint-config-legacy@0.1.9...@dodo/eslint-config-legacy@0.1.12) (2018-01-30)
+
+
+
+
+**Note:** Version bump only for package @dodo/eslint-config-legacy
+
 <a name="0.1.11"></a>
 ## [0.1.11](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/eslint-config-legacy@0.1.9...@dodo/eslint-config-legacy@0.1.11) (2018-01-30)
 

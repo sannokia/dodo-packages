@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.17"></a>
+## [0.1.17](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/storybook-config@0.1.14...@dodo/storybook-config@0.1.17) (2018-01-30)
+
+
+
+
+**Note:** Version bump only for package @dodo/storybook-config
+
 <a name="0.1.16"></a>
 ## [0.1.16](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/storybook-config@0.1.14...@dodo/storybook-config@0.1.16) (2018-01-30)
 

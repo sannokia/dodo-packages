@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.9"></a>
+## [0.1.9](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/utils@0.1.6...@dodo/utils@0.1.9) (2018-01-30)
+
+
+
+
+**Note:** Version bump only for package @dodo/utils
+
 <a name="0.1.8"></a>
 ## [0.1.8](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/utils@0.1.6...@dodo/utils@0.1.8) (2018-01-30)
 
