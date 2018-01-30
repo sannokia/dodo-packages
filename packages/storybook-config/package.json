@@ -1,6 +1,6 @@
 {
   "name": "@dodo/storybook-config",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "This package provides the common storybook configuration for react components.",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "license": "MIT",
@@ -16,8 +16,8 @@
     "@storybook/react": "^3.3.10"
   },
   "devDependencies": {
-    "@dodo/eslint-config-base": "^0.1.6",
-    "@dodo/eslint-config-prettier": "^0.1.10",
+    "@dodo/eslint-config-base": "^0.1.7",
+    "@dodo/eslint-config-prettier": "^0.1.11",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",
