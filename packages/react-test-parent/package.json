@@ -1,6 +1,6 @@
 {
   "name": "@dodo/react-test-parent",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "This package provides a test React component wrapper.",
   "main": "./lib",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
@@ -19,7 +19,7 @@
     "winston-daily-rotate-file": "^1.7.2"
   },
   "devDependencies": {
-    "@dodo/babel-preset-react": "^0.1.24",
+    "@dodo/babel-preset-react": "^0.1.25",
     "@dodo/eslint-config-prettier": "^0.1.17",
     "@dodo/eslint-config-react": "^0.1.15",
     "babel-cli": "^6.26.0",
