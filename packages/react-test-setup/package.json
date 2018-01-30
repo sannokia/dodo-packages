@@ -1,0 +1,57 @@
+{
+  "name": "@dodo/react-test-setup",
+  "version": "0.1.2",
+  "description": "This package provides the configuration to setup a testing react environment using Chai, Sinon and React Test Utils.",
+  "main": "./lib",
+  "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "colors": "^1.1.2",
+    "fs": "^0.0.1-security",
+    "is-plain-obj": "^1.1.0",
+    "is-regexp": "^1.0.0",
+    "jsdom": "^11.6.1",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "sinon": "^4.2.2",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "@dodo/eslint-config-prettier": "^0.1.16",
+    "@dodo/eslint-config-react": "^0.1.14",
+    "@dodo/react-test-parent": "^0.1.8",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^4.16.0",
+    "react": "^16.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "react": "^16.2.0"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-tools check src",
+    "posteditorconfig": "editorconfig-tools fix src",
+    "prelint": "npm run editorconfig",
+    "lint": "eslint src --ext js",
+    "postlint": "eslint src --fix",
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=production TEST_MODE=test mocha --compilers js:babel-register --ui tdd --timeout 8000 ./test/index.js",
+    "build": "npm run clean && NODE_ENV=production babel src -d lib --source-maps",
+    "clean": "rm -rf ./lib && mkdir ./lib",
+    "prepublishOnly": "npm run build && npm run test"
+  }
+}

@@ -1,27 +1,12 @@
-# babel-preset-react-app
+## @dodo/babel-preset-react
 
-This package includes the Babel preset used by [Create React App](https://github.com/facebookincubator/create-react-app).<br>
-Please refer to its documentation:
+Reusable babel preset for React based projects.
 
-* [Getting Started](https://github.com/facebookincubator/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
-* [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
+### Quick Start
 
-## Usage in Create React App Projects
+1. `yarn add @dodo/babel-preset-react`
+2. add `"@dodo/babel-preset-react"` your .babelrc
 
-The easiest way to use this configuration is with [Create React App](https://github.com/facebookincubator/create-react-app), which includes it by default. **You don’t need to install it separately in Create React App projects.**
+### License
 
-## Usage Outside of Create React App
-
-If you want to use this Babel preset in a project not built with Create React App, you can install it with following steps.
-
-First, [install Babel](https://babeljs.io/docs/setup/).
-
-Then create a file named `.babelrc` with following contents in the root folder of your project:
-
-  ```js
-  {
-    "presets": ["react-app"]
-  }
-  ```
-
-This preset uses the `useBuiltIns` option with [transform-object-rest-spread](http://babeljs.io/docs/plugins/transform-object-rest-spread/) and [transform-react-jsx](http://babeljs.io/docs/plugins/transform-react-jsx/), which assumes that `Object.assign` is available or polyfilled.
+[MIT](LICENSE)

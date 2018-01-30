@@ -1,0 +1,4 @@
+{
+  "presets": ["@dodo/babel-preset-react"],
+  "plugins": ["add-module-exports", "transform-runtime"]
+}
