@@ -1,7 +1,7 @@
 {
-  "name": "@dodo/logger",
-  "version": "0.1.10",
-  "description": "This package provides an extensible and customisable logger for the standard output.",
+  "name": "@dodo/react-test-parent",
+  "version": "0.1.1",
+  "description": "This package provides a test React component wrapper.",
   "main": "./lib",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "license": "MIT",
@@ -19,8 +19,9 @@
     "winston-daily-rotate-file": "^1.7.2"
   },
   "devDependencies": {
-    "@dodo/eslint-config-base": "^0.1.5",
+    "@dodo/babel-preset-react": "^0.1.13",
     "@dodo/eslint-config-prettier": "^0.1.9",
+    "@dodo/eslint-config-react": "^0.1.7",
     "babel-cli": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -28,10 +29,12 @@
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "editorconfig-tools": "^0.1.1",
-    "eslint": "^4.16.0"
+    "eslint": "^4.16.0",
+    "react": "^16.2.0"
   },
   "peerDependencies": {
-    "eslint": "^4.16.0"
+    "eslint": "^4.16.0",
+    "react": "^16.2.0"
   },
   "scripts": {
     "editorconfig": "editorconfig-tools check src",
@@ -40,7 +43,7 @@
     "lint": "eslint src --ext js",
     "postlint": "eslint src --fix",
     "pretest": "npm run lint",
-    "test": "TEST_MODE=true mocha --compilers js:babel-register --ui tdd --timeout 8000 ./test/index.js",
+    "test": "NODE_ENV=production TEST_MODE=test mocha --compilers js:babel-register --ui tdd --timeout 8000 ./test/index.js",
     "build": "npm run clean && NODE_ENV=production babel src -d lib --source-maps",
     "clean": "rm -rf ./lib && mkdir ./lib",
     "prepublishOnly": "npm run build && npm run test"
