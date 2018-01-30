@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.10"></a>
+## [0.1.10](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/react-test-parent@0.1.9...@dodo/react-test-parent@0.1.10) (2018-01-30)
+
+
+
+
+**Note:** Version bump only for package @dodo/react-test-parent
+
 <a name="0.1.9"></a>
 ## [0.1.9](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/react-test-parent@0.1.6...@dodo/react-test-parent@0.1.9) (2018-01-30)
 
