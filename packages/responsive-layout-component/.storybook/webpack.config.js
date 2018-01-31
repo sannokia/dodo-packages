@@ -2,22 +2,33 @@ var path = require('path')
 
 module.exports = {
   resolve: {
-    root: __dirname,
-    modulesDirectories: ['src', 'scss', 'node_modules']
+    modules: [__dirname, 'src', 'scss', 'node_modules']
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.scss$/,
-        loader: 'style!css?-url!sass'
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              outputStyle: 'expanded',
+              includePaths: [
+                path.resolve(__dirname, '../public'),
+                path.resolve(__dirname, '../src'),
+                path.resolve(__dirname, '../src/styles'),
+                path.resolve(__dirname, '../node_modules')
+              ]
+            }
+          }
+        ]
       }
-    ]
-  },
-  sassLoader: {
-    outputStyle: 'expanded',
-    includePaths: [
-      path.resolve(__dirname, '../node_modules'),
-      path.resolve(__dirname, '../scss')
     ]
   }
 }

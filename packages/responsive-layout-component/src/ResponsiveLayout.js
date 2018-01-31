@@ -4,12 +4,6 @@ import shouldPureComponentUpdate from '@dodo/utils/lib/helpers/ui/shouldComponen
 import media from './media';
 
 class ResponsiveLayout extends React.Component {
-  static propTypes = {
-    mobileLayout: React.PropTypes.any,
-    desktopLayout: React.PropTypes.any,
-    tabletLayout: React.PropTypes.any
-  };
-
   shouldComponentUpdate = shouldPureComponentUpdate;
 
   constructor(props) {

@@ -1,8 +1,9 @@
-import {configure} from '@kadira/storybook'
-import 'responsive-layout.scss'
+import {configure} from '@storybook/react'
+
+const req = require.context('../stories', true, /.stories.js$/)
 
 function loadStories() {
-  require('../stories/ResponsiveLayout')
+  req.keys().forEach((filename) => req(filename))
 }
 
 configure(loadStories, module)
