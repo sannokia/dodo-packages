@@ -6123,7 +6123,7 @@ node-sass@^4.7.2:
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
 
-node-uuid@~1.4.7:
+node-uuid@^1.4.8, node-uuid@~1.4.7:
   version "1.4.8"
   resolved "http://localhost:4873/node-uuid/-/node-uuid-1.4.8.tgz#b040eb0923968afabf8d32fb1f17f1167fdab907"
 
