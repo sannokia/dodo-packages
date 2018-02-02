@@ -1,7 +1,8 @@
 {
   "name": "@dodo/zeus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This package provides the ZEUS client API wrapper for NodeJS",
+  "main": "./lib",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
   "license": "MIT",
   "publishConfig": {
