@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.11"></a>
+## [0.1.11](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/zeus@0.1.10...@dodo/zeus@0.1.11) (2018-02-04)
+
+
+
+
+**Note:** Version bump only for package @dodo/zeus
+
 <a name="0.1.10"></a>
 ## [0.1.10](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/zeus@0.1.9...@dodo/zeus@0.1.10) (2018-02-04)
 
