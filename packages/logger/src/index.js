@@ -182,6 +182,11 @@ var Logger = {
       transports.push(new winston.transports.Console(transportOptions));
     }
 
+    if (!_.isEmpty(opts.logglyOpts)) {
+      require('winston-loggly');
+      transports.push(new winston.transports.Loggly(opts.logglyOpts));
+    }
+
     var logger = new winston.Logger({
       transports,
       exitOnError: false

@@ -218,16 +218,12 @@ const builder = {
 
       var start = Date.now();
 
-      const requestObj = {
+      global.log.zeus.info('API Request: ' + apiRelativeUrl + ', ', {
         reqObj: reqOptsLog,
         apiPath,
         apiRelativeUrl,
         guid
-      };
-
-      global.app.log.zeus.info(
-        `API Request: ${apiRelativeUrl}, ${JSON.stringify(requestObj)}`
-      );
+      });
 
       request(reqOpts, function(err, response, body) {
         var processed = builder.processResponse(err, response, body);
