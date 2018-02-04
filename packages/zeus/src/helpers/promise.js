@@ -14,7 +14,7 @@ module.exports = {
       duration: getDuration(res.start)
     };
 
-    global.app.log.info(
+    global.app.log.zeus.info(
       `API call completed successfully: ${res.apiRelativeUrl} ${JSON.stringify(
         responseObj
       )}`
@@ -33,7 +33,7 @@ module.exports = {
       duration: getDuration(err.start)
     };
 
-    global.app.log.error(
+    global.app.log.zeus.error(
       `API call failed: ${err._info.status} ${
         err.apiRelativeUrl
       } ${JSON.stringify(responseObj)}`
