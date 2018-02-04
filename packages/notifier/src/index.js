@@ -16,7 +16,7 @@ var notifier = (title) => {
       return notify.call(notifier, Object.assign({}, defaults, options));
     };
 
-    module.exports = notifier;
+    return notifier;
   }
 };
 
