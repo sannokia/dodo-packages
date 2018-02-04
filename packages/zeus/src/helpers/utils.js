@@ -13,6 +13,10 @@ const utils = {
     );
   },
 
+  pathify: (str) => {
+    return str.replace(/^\/?(.*)/, '/$1');
+  },
+
   urlify: (service, params, prefix, apiOpts) => {
     var url = path.join(apiOpts.api, prefix || '', service);
     params = params || {};

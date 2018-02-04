@@ -228,7 +228,7 @@ const builder = {
       global.app.log.zeus.info(`API Request: ${apiRelativeUrl}, ${requestObj}`);
 
       request(reqOpts, function(err, response, body) {
-        var processed = utils.processResponse(err, response, body);
+        var processed = builder.processResponse(err, response, body);
 
         if (processed.body) {
           body = processed.body;
@@ -322,7 +322,7 @@ const builder = {
       defer.reject(errorEventObj);
     }
 
-    promise.bindDefaults = utils.bindDefaults(promise, {
+    promise.bindDefaults = builder.bindDefaults(promise, {
       bindSuccess: true,
       bindFail: true,
       pipeSuccessResponse: true,
@@ -330,19 +330,19 @@ const builder = {
     });
 
     promise.bindSuccess = _.partial(
-      utils.bindDefaults(promise, { bindSuccess: true })
+      builder.bindDefaults(promise, { bindSuccess: true })
     );
     promise.bindFail = _.partial(
-      utils.bindDefaults(promise, { bindFail: true })
+      builder.bindDefaults(promise, { bindFail: true })
     );
     promise.bindSuccessWithResponse = _.partial(
-      utils.bindDefaults(promise, {
+      builder.bindDefaults(promise, {
         bindSuccess: true,
         pipeSuccessResponse: true
       })
     );
     promise.bindFailWithResponse = _.partial(
-      utils.bindDefaults(promise, { bindFail: true, pipeFailResponse: true })
+      builder.bindDefaults(promise, { bindFail: true, pipeFailResponse: true })
     );
 
     return promise;
@@ -375,7 +375,7 @@ const builder = {
           opts.params = params || {};
           opts.reqOpts = reqOpts || {};
           opts.body = body || {};
-          return utils.functionCall(
+          return builder.functionCall(
             req,
             ZeusInstance,
             opts,

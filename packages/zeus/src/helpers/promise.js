@@ -34,7 +34,7 @@ module.exports = {
     global.app.log.error(
       `API call failed: ${err._info.status} ${
         err.apiRelativeUrl
-      } ${responseObj}`
+      } ${JSON.stringify(responseObj)}`
     );
   },
 
