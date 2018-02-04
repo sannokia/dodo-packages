@@ -15,7 +15,9 @@ module.exports = {
     };
 
     global.app.log.info(
-      `API call completed successfully: ${res.apiRelativeUrl} ${responseObj}`
+      `API call completed successfully: ${res.apiRelativeUrl} ${JSON.stringify(
+        responseObj
+      )}`
     );
   },
 

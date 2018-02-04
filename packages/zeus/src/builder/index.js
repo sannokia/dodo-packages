@@ -225,7 +225,9 @@ const builder = {
         guid
       };
 
-      global.app.log.zeus.info(`API Request: ${apiRelativeUrl}, ${requestObj}`);
+      global.app.log.zeus.info(
+        `API Request: ${apiRelativeUrl}, ${JSON.stringify(requestObj)}`
+      );
 
       request(reqOpts, function(err, response, body) {
         var processed = builder.processResponse(err, response, body);
