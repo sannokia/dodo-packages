@@ -1,6 +1,6 @@
 {
   "name": "@dodo/logger",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "description": "This package provides an extensible and customisable logger for the standard output.",
   "main": "./lib",
   "author": "Adrian Bonnici <adrian.bonnici@isobar.com>",
