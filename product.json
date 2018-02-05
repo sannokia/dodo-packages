@@ -1,0 +1,476 @@
+[
+  {
+    "$id": "1",
+    "Id": 2,
+    "Title": "50GB",
+    "BriefInfo": "",
+    "PopupInfo": "",
+    "Price": {
+      "0": "24.9",
+      "12": "24.9",
+      "24": "24.9",
+      "$id": "2"
+    },
+    "PriceTypeId": 1,
+    "ComponentTypeId": 1,
+    "DisplayPrice": {
+      "0": "<div class=\"block-title\"></div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">24.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "12": "<div class=\"block-title\"></div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">24.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "24": "<div class=\"block-title\"></div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">24.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "$id": "3"
+    },
+    "ImageUrl": "https://images.dodo.com/signup-wizard-images/price point-2490.png",
+    "SummaryText": "50GB Plan",
+    "QuotaMb": 50000,
+    "IsInputRequired": false,
+    "CheckUncheckPolicy": "",
+    "ListOfContractLengthRestriction": [],
+    "ListOfComponentBundles": [],
+    "ListOfComponentUpgrades": [],
+    "ListOfFetchOptions": [],
+    "ListOfComponentIdsForRestriction": []
+  },
+  {
+    "$id": "4",
+    "Id": 3,
+    "Title": "Unlimited",
+    "BriefInfo": "",
+    "PopupInfo": "",
+    "Price": {
+      "0": "29.9",
+      "12": "29.9",
+      "24": "29.9",
+      "$id": "5"
+    },
+    "PriceTypeId": 1,
+    "ComponentTypeId": 1,
+    "DisplayPrice": {
+      "0": "<div class=\"block-title\"></div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">29.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "12": "<div class=\"block-title\"></div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">29.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "24": "<div class=\"block-title\"></div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">29.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "$id": "6"
+    },
+    "ImageUrl": "https://images.dodo.com/signup-wizard-images/price point-2990.png",
+    "SummaryText": "Unlimited Plan",
+    "QuotaMb": 0,
+    "IsInputRequired": false,
+    "CheckUncheckPolicy": "",
+    "ListOfContractLengthRestriction": [],
+    "ListOfComponentBundles": [],
+    "ListOfComponentUpgrades": [],
+    "ListOfFetchOptions": [],
+    "ListOfComponentIdsForRestriction": []
+  },
+  {
+    "$id": "7",
+    "Id": 72,
+    "Title": "Unlimited + Entertainment Bundle",
+    "BriefInfo": "",
+    "PopupInfo": "",
+    "Price": {
+      "0": "29.9",
+      "12": "29.9",
+      "24": "29.9",
+      "$id": "8"
+    },
+    "PriceTypeId": 1,
+    "ComponentTypeId": 1,
+    "DisplayPrice": {
+      "0": "<div class=\"block-title\">FROM </div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">44.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "12": "<div class=\"block-title\">FROM </div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">44.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "24": "<div class=\"block-title\">FROM </div><div class=\"block-price\"><span style=\"position:relative;top:-9px;\">$</span><span style=\"font-size:36px;\">44.90</span><span style=\"font-size:13px\"> P/M</span></div>",
+      "$id": "9"
+    },
+    "ImageUrl": "https://images.dodo.com/signup-wizard-images/price point-from-4490.png",
+    "SummaryText": "Unlimited + Entertainment Bundle",
+    "QuotaMb": 0,
+    "IsInputRequired": false,
+    "CheckUncheckPolicy": "",
+    "ListOfContractLengthRestriction": [
+      "24"
+    ],
+    "ListOfComponentBundles": [],
+    "ListOfComponentUpgrades": [],
+    "ListOfFetchOptions": [
+      {
+        "$id": "10",
+        "Id": 64,
+        "Title": "Fetch Mini + 1 Channel Pack",
+        "BriefInfo": "",
+        "PopupInfo": "app/product-popups/fetch-mini.html",
+        "Price": {
+          "0": "10",
+          "12": "10",
+          "24": "10",
+          "$id": "11"
+        },
+        "PriceTypeId": 1,
+        "ComponentTypeId": 8,
+        "DisplayPrice": {
+          "0": "$15 P/M",
+          "12": "$15 P/M",
+          "24": "$15 P/M",
+          "$id": "12"
+        },
+        "ImageUrl": "https://images.dodo.com/ftv_lite-tbl-img.png",
+        "SummaryText": "Fetch Mini + 1 Channel Pack",
+        "QuotaMb": 0,
+        "IsInputRequired": false,
+        "CheckUncheckPolicy": "",
+        "ListOfContractLengthRestriction": [
+          "24"
+        ],
+        "ListOfComponentBundles": null,
+        "ListOfComponentUpgrades": [
+          {
+            "$id": "13",
+            "Id": 58,
+            "Title": "Kids Channel Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-kids.html",
+            "Price": {
+              "0": "6",
+              "12": "6",
+              "24": "6",
+              "$id": "14"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$6 P/M",
+              "12": "$6 P/M",
+              "24": "$6 P/M",
+              "$id": "15"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Kids Channel Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "true|1|58+62,,,62|58+59+60+61,62,62,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          },
+          {
+            "$id": "16",
+            "Id": 59,
+            "Title": "Knowledge Channel Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-knowledge.html",
+            "Price": {
+              "0": "6",
+              "12": "6",
+              "24": "6",
+              "$id": "17"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$6 P/M",
+              "12": "$6 P/M",
+              "24": "$6 P/M",
+              "$id": "18"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Knowledge Channel Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "false|1|59+62,,,62|58+59+60+61,62,62,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          },
+          {
+            "$id": "19",
+            "Id": 60,
+            "Title": "Vibe Channel Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-vibe.html",
+            "Price": {
+              "0": "6",
+              "12": "6",
+              "24": "6",
+              "$id": "20"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$6 P/M",
+              "12": "$6 P/M",
+              "24": "$6 P/M",
+              "$id": "21"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Vibe Channel Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "false|1|60+62,,,62|58+59+60+61,62,62,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          },
+          {
+            "$id": "22",
+            "Id": 61,
+            "Title": "Variety Channel Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-variety.html",
+            "Price": {
+              "0": "6",
+              "12": "6",
+              "24": "6",
+              "$id": "23"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$6 P/M",
+              "12": "$6 P/M",
+              "24": "$6 P/M",
+              "$id": "24"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Variety Channel Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "false|1|61+62,,,62|58+59+60+61,62,62,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          },
+          {
+            "$id": "25",
+            "Id": 62,
+            "Title": "Ultimate Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-ultimate.html",
+            "Price": {
+              "0": "20",
+              "12": "20",
+              "24": "20",
+              "$id": "26"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$20 P/M",
+              "12": "$20 P/M",
+              "24": "$20 P/M",
+              "$id": "27"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Ultimate Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "false|1|62,,,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          }
+        ],
+        "ListOfFetchOptions": null,
+        "ListOfComponentIdsForRestriction": null
+      },
+      {
+        "$id": "28",
+        "Id": 65,
+        "Title": "Fetch Mighty + 1 Channel Pack",
+        "BriefInfo": "",
+        "PopupInfo": "app/product-popups/fetch-pvr.html",
+        "Price": {
+          "0": "15",
+          "12": "15",
+          "24": "15",
+          "$id": "29"
+        },
+        "PriceTypeId": 1,
+        "ComponentTypeId": 8,
+        "DisplayPrice": {
+          "0": "$20 P/M",
+          "12": "$20 P/M",
+          "24": "$20 P/M",
+          "$id": "30"
+        },
+        "ImageUrl": "https://images.dodo.com/ftv_ent-tbl-img.png",
+        "SummaryText": "Fetch Mighty + 1 Channel Pack",
+        "QuotaMb": 0,
+        "IsInputRequired": false,
+        "CheckUncheckPolicy": "",
+        "ListOfContractLengthRestriction": [
+          "24"
+        ],
+        "ListOfComponentBundles": null,
+        "ListOfComponentUpgrades": [
+          {
+            "$id": "31",
+            "Id": 58,
+            "Title": "Kids Channel Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-kids.html",
+            "Price": {
+              "0": "6",
+              "12": "6",
+              "24": "6",
+              "$id": "32"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$6 P/M",
+              "12": "$6 P/M",
+              "24": "$6 P/M",
+              "$id": "33"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Kids Channel Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "true|1|58+62,,,62|58+59+60+61,62,62,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          },
+          {
+            "$id": "34",
+            "Id": 59,
+            "Title": "Knowledge Channel Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-knowledge.html",
+            "Price": {
+              "0": "6",
+              "12": "6",
+              "24": "6",
+              "$id": "35"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$6 P/M",
+              "12": "$6 P/M",
+              "24": "$6 P/M",
+              "$id": "36"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Knowledge Channel Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "false|1|59+62,,,62|58+59+60+61,62,62,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          },
+          {
+            "$id": "37",
+            "Id": 60,
+            "Title": "Vibe Channel Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-vibe.html",
+            "Price": {
+              "0": "6",
+              "12": "6",
+              "24": "6",
+              "$id": "38"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$6 P/M",
+              "12": "$6 P/M",
+              "24": "$6 P/M",
+              "$id": "39"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Vibe Channel Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "false|1|60+62,,,62|58+59+60+61,62,62,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          },
+          {
+            "$id": "40",
+            "Id": 61,
+            "Title": "Variety Channel Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-variety.html",
+            "Price": {
+              "0": "6",
+              "12": "6",
+              "24": "6",
+              "$id": "41"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$6 P/M",
+              "12": "$6 P/M",
+              "24": "$6 P/M",
+              "$id": "42"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Variety Channel Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "false|1|61+62,,,62|58+59+60+61,62,62,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          },
+          {
+            "$id": "43",
+            "Id": 62,
+            "Title": "Ultimate Pack",
+            "BriefInfo": "",
+            "PopupInfo": "app/product-popups/fetch-skinny-ultimate.html",
+            "Price": {
+              "0": "20",
+              "12": "20",
+              "24": "20",
+              "$id": "44"
+            },
+            "PriceTypeId": 1,
+            "ComponentTypeId": 7,
+            "DisplayPrice": {
+              "0": "$20 P/M",
+              "12": "$20 P/M",
+              "24": "$20 P/M",
+              "$id": "45"
+            },
+            "ImageUrl": "",
+            "SummaryText": "Ultimate Pack",
+            "QuotaMb": 0,
+            "IsInputRequired": false,
+            "CheckUncheckPolicy": "false|1|62,,,58+59+60+61",
+            "ListOfContractLengthRestriction": [],
+            "ListOfComponentBundles": null,
+            "ListOfComponentUpgrades": null,
+            "ListOfFetchOptions": null,
+            "ListOfComponentIdsForRestriction": null
+          }
+        ],
+        "ListOfFetchOptions": null,
+        "ListOfComponentIdsForRestriction": null
+      }
+    ],
+    "ListOfComponentIdsForRestriction": []
+  }
+]
