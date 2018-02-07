@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.26"></a>
+## [0.1.26](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/babel-preset-react@0.1.25...@dodo/babel-preset-react@0.1.26) (2018-02-07)
+
+
+
+
+**Note:** Version bump only for package @dodo/babel-preset-react
+
 <a name="0.1.25"></a>
 ## [0.1.25](https://bitbucket.isobaraustralia.com/scm/~adrian.bonnici/dodo-packages-monorepo/compare/@dodo/babel-preset-react@0.1.24...@dodo/babel-preset-react@0.1.25) (2018-01-30)
 
