@@ -37,7 +37,8 @@ var plugins = [
 // https://github.com/facebookincubator/create-react-app/issues/720
 // It’s also nice that we can enforce `NODE_ENV` being specified.
 var env = process.env.BABEL_ENV || process.env.NODE_ENV;
-if (env !== 'development' && env !== 'test' && env !== 'production') {
+var isTest = process.env.TEST_MODE || false;
+if (env !== 'development' && env !== 'production') {
   throw new Error(
     'Using `babel-preset-react` requires that you specify `NODE_ENV` or ' +
       '`BABEL_ENV` environment variables. Valid values are "development", ' +
@@ -47,7 +48,7 @@ if (env !== 'development' && env !== 'test' && env !== 'production') {
   );
 }
 
-if (env === 'development' || env === 'test') {
+if (env === 'development' || isTest) {
   // The following two plugins are currently necessary to make React warnings
   // include more valuable information. They are included here because they are
   // currently not enabled in babel-preset-react. See the below threads for more info:
@@ -62,7 +63,7 @@ if (env === 'development' || env === 'test') {
   ]);
 }
 
-if (env === 'test') {
+if (isTest) {
   module.exports = {
     presets: [
       // ES features necessary for user's Node version

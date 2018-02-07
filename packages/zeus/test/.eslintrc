@@ -1,13 +1,13 @@
 {
- "env": {
-   "mocha": true
- },
  "globals": {
-   "chai": true,
-   "sinon": true,
-   "React": true,
-   "TestUtils": true,
-   "TestParent": true,
-   "ReactDOM": true
+   "test": false,
+   "expect": false,
+   "describe": false,
+   "applyToAll": false,
+   "register": false,
+   "it": false,
+   "jest": false,
+   "beforeEach": false,
+   "beforeAll": false
  }
 }

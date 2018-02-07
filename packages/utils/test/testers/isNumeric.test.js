@@ -1,28 +1,27 @@
 import isNumeric from '../../lib/testers/isNumeric';
-import chai from 'chai';
 
-suite('isNumeric', function() {
+describe('isNumeric', function() {
   test('123 is numeric', function() {
-    chai.assert.isTrue(isNumeric(123));
+    expect(isNumeric(123)).toBeTruthy();
   });
 
   test('"123" is numeric', function() {
-    chai.assert.isTrue(isNumeric('123'));
+    expect(isNumeric('123')).toBeTruthy();
   });
 
   test('123.12 is numeric', function() {
-    chai.assert.isTrue(isNumeric(123.12));
+    expect(isNumeric(123.12)).toBeTruthy();
   });
 
   test('"123a" is not numeric', function() {
-    chai.assert.isFalse(isNumeric('123a'));
+    expect(isNumeric('123a')).toBeFalsy();
   });
 
   test('{} is not numeric', function() {
-    chai.assert.isFalse(isNumeric({}));
+    expect(isNumeric({})).toBeFalsy();
   });
 
   test('[1, 2] is not numeric', function() {
-    chai.assert.isFalse(isNumeric([1, 2]));
+    expect(isNumeric([1, 2])).toBeFalsy();
   });
 });

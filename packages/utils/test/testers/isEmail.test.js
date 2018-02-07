@@ -1,24 +1,23 @@
 import isEmail from '../../lib/testers/isEmail';
-import chai from 'chai';
 
-suite('isEmail', () => {
-  suite('valid cases', () => {
+describe('isEmail', () => {
+  describe('valid cases', () => {
     test('"adrian.bonnici@isobar.com" is an email', () => {
-      chai.assert.isTrue(isEmail('adrian.bonnici@isobar.com'));
+      expect(isEmail('adrian.bonnici@isobar.com')).toBeTruthy();
     });
 
     test('"what@gmail.com" is an email', () => {
-      chai.assert.isTrue(isEmail('what@gmail.com'));
+      expect(isEmail('what@gmail.com')).toBeTruthy();
     });
   });
 
-  suite('invalid cases', () => {
+  describe('invalid cases', () => {
     test('"asdfasdf.com" is not an email', () => {
-      chai.assert.isFalse(isEmail('asdfasdf.com'));
+      expect(isEmail('asdfasdf.com')).toBeFalsy();
     });
 
     test('"<hello>@<world>.com" is not an email', () => {
-      chai.assert.isFalse(isEmail('<hello>@<world>.com'));
+      expect(isEmail('<hello>@<world>.com')).toBeFalsy();
     });
   });
 });
